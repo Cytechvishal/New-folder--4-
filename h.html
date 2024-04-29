@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="https://1000logos.net/wp-content/uploads/2021/04/YouTube-logo.png">
+</head>
+<body>
+    
+ Enter a =    <input id="a1" type="number" value=""> <br><br>
+ Enter b =    <input id="a2" type="number"> <br><br>
+<button style="background-color: #001a4b;color: white;border-radius: 10px;border: none;padding:10px 15px 10px 15px;" onclick="multi()">Multiply</button>
+
+<h3 id="z">
+
+</h3>
+
+
+<script>
+    function multi(){
+      var x = Number(document.getElementById('a1').value)
+      var y = Number(document.getElementById('a2').value)
+
+    document.getElementById('z').innerHTML = x*y
+    document.getElementById('z').style.color='red'
+
+    }
+</script>
+</body>
+</html>
